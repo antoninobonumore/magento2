@@ -16,7 +16,7 @@ use Magento\Framework\View\LayoutInterface;
 /**
  * Class CurrentCustomer
  */
-class CurrentCustomer
+class CurrentCustomer extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**
      * @var \Magento\Customer\Model\Session
